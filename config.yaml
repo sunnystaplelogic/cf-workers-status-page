@@ -37,5 +37,11 @@ monitors:
     url: 'https://www.amazon.com/'
     method: GET
     expectStatus: 200
+
+    - id: blooket.com
+    name: The blooket Blog
+    url: 'https://www.blooket.com/'
+    method: GET
+    expectStatus: 200
     
 
