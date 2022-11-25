@@ -37,3 +37,4 @@ monitors:
     url: 'https://www.amazon.com/'
     method: GET
     expectStatus: 200
+    
