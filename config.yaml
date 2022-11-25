@@ -32,9 +32,10 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-amazon-com
+  - id: amazon.com
     name: The amazon Blog
     url: 'https://www.amazon.com/'
     method: GET
     expectStatus: 200
     
+
