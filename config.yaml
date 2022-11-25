@@ -78,8 +78,8 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-     - id: blooket.com # unique identifier
-    name: blooket.com
+     - id: www-blooket.com # unique identifier
+    name: www.blooket.com
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://www.blooket.com' # URL to fetch
     method: GET # default=GET
