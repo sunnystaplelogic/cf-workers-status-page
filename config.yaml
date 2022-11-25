@@ -77,33 +77,7 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-    
-     - id: www-blooket.com # unique identifier
-    name: www.blooket.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.blooket.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-  - id: staplelogic.com.staple # unique identifier
-    name: staplelogic.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://staplelogic.com/' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
-  - id: www-antiersolutions-com
-    name: www.antiersolutions.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.antiersolutions.com'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
-
+  
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
