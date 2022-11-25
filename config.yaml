@@ -15,69 +15,23 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
- - id: amazon.com.staple # unique identifier
-    name: amazon.com
+  - id: workers-cloudflare-com # unique identifier
+    name: workers.cloudflare.com
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.amazon.com' # URL to fetch
+    url: 'https://workers.cloudflare.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+
+  - id: www-cloudflare-com
+    name: www.cloudflare.com
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.cloudflare.com'
+    method: GET
+    expectStatus: 200
     linkable: true # allows the title to be a link, default=true
-    
-    - id: ebay.com # unique identifier
-    name: ebay.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.ebay.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-     - id: etsy.com # unique identifier
-    name: etsy.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.etsy.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-     - id: t-mobile.com # unique identifier
-    name: t-mobile.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.t-mobile.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-     - id: homedepot.com # unique identifier
-    name: homedepot.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.homedepot.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-    - id: peardeck.com # unique identifier
-    name: peardeck.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://www.peardeck.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-    
-    - id: focusschoolsoftware.com # unique identifier
-    name: focusschoolsoftware.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://focusschoolsoftware.com' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-  
+
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
     url: 'https://blog.cloudflare.com/'
