@@ -40,7 +40,7 @@ monitors:
 
     - id: blooket.com
     name: The blooket Blog
-    url: 'https://www.blooket.com/'
+    url: 'https://www.blooket.com'
     method: GET
     expectStatus: 200
     
